@@ -1,1 +1,60 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    
+    /* шрифты */
+    --main-font: 'Inter';
+    --accent-font: 'Press Start 2P';
+    --main-text-weight: 410;
+    --title-weight: 715;
+    --regular-weight: 400;
+
+    /* font-size */
+    --header-title-font-size: clamp(49px, 9.29vw, 65px); /* среднее значение высчитывается относительно ширины контейнера 700px - 65px */
+    --header-subtitle-font-size: clamp(14px, 3.29vw, 23px); /* среднее значение высчитывается относительно ширины контейнера 700px - 23px */
+    --card-main-font-size: 18px;
+    --decor-font-size: 14px;
+
+    /* градиенты */
+    --repeating-gradient-to-right: repeating-linear-gradient(
+        to right,
+        #d3d3d3,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+    );
+
+    --repeating-gradient-to-bottom: repeating-linear-gradient(
+        to bottom,
+        #d3d3d3,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+    );
+
+    --color-gradient: linear-gradient(
+        to bottom,
+        #E7E7E7 0.01%,
+        #1a1a1a 100%
+    );
+
+    /* общие */
+    --bg-color: #FFFFFF;
+    --color: #000000;
+    --accent-color: #000000;
+    --hover-color: #FFFFFF;
+    --resizable-width: clamp(375px, 100vw, 700px);
+
+    /* шапка */
+    --resizable-height: clamp(327px, 52.6vw, 368px);
+
+    /* лейбл картинки */
+    --text-stroke-color: #fff;
+
+    /* модальное окно */
+    --backdrop-bg-color: #000000;
+
+    /* svg heart-in-paths */
+    --contour-color: #000000;
+    --fill-color: #FF0000;
+    --hover-svg-color: #000000;
+}

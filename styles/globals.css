@@ -24,6 +24,7 @@ ol,
 li {
   margin: 0;
   padding: 0;
+  font-size: inherit;
 }
 
 a {
@@ -35,11 +36,22 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
 }
 
 ul,
 ol {
   list-style: none;
+}
+
+img {
+  display: block;
 }
 
 .visually-hidden {
