@@ -45,7 +45,7 @@
     --resizable-width: clamp(375px, 100vw, 700px);
 
     /* шапка */
-    --resizable-height: clamp(327px, 52.6vw, 368px);
+    --header-padding-block: clamp(120px, 18.57vw, 130px);
 
     /* лейбл картинки */
     --text-stroke-color: #fff;
